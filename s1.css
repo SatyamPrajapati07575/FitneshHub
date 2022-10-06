@@ -1,0 +1,151 @@
+  /* css Reset */
+  body {
+    font-family: 'Fraunces', serif;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url(png/bg4.png);
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: -1 ;
+    opacity: 0.4;
+    /* position: relative;
+    overflow: hidden; */
+}
+
+.left {
+    position: absolute;
+    left: 48px;
+    top: 3px;
+    display: inline-block;
+    /* border: 2px solid red; */
+
+}
+
+.left img {
+    width: 100px;
+    filter: invert();
+}
+
+.left {
+    text-align: center;
+}
+
+
+
+.mid {
+    display: block;
+    margin: 16px auto;
+    width: 57%;
+    /* border: 2px solid green; */
+}
+
+.right {
+    position: absolute;
+    right: 34px;
+    top: 20px;
+    display: inline-block;
+    /* border: 2px solid yellow; */
+}
+
+.navbar {
+    display: inline-block;
+
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar li a {
+    color: thistle;
+    text-decoration: none;
+    padding: 11px 40px;
+    font-size: 16px;
+}
+
+.navbar li a:hover {
+    text-decoration: underline;
+    color: rgb(235, 161, 64);
+}
+
+.satyam {
+    font-size: 25px;
+    line-height: 19px;
+}
+
+
+.btn {
+    font-family: 'Alfa Slab One', cursive;
+    margin: 0px 9px;
+    color: white;
+    background-color: black;
+    padding: 6px 20px;
+    border: 2px solid gray;
+    border-radius: 8px;
+    font-size: 12px;
+    cursor: pointer;
+
+}
+
+
+.btn:hover {
+    /* color: rgb(248, 183, 62); */
+    background-color: rgb(134, 102, 102);
+}
+
+.container {
+
+    /* border: 5px solid #f3f5f0;
+    margin: 120px 64px;
+    padding: 8px 26px;
+    border-radius: 37px;
+    width: 446px; */
+    position: absolute;
+    left: 34%;
+    top: 28%;
+    display: inline-block;
+    /* border: 2px solid red; */
+}
+
+.form-group input {
+    font-family: 'Fraunces', serif;
+    text-align: center;
+    display: block;
+    width: 271px;
+    padding: 7px;
+    border: 2px solid black;
+    margin: 6px auto;
+    font-size: 15px;
+    border-radius: 10px;
+}
+.form-group input:hover{
+    background-color: rgb(252, 210, 234);
+    color:blueviolet
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.container button {
+    display: block;
+    width: 23%;
+    margin: 13px auto;
+    /* margin: 2px 2px; */
+    padding: 2px 2px;
+    border: 2px solid white;
+    /* display: inline; */
+}
+
+#reset:hover {
+    background-color: rgb(236, 63, 63);
+}
+
+#submit:hover {
+    background-color: rgb(61, 231, 61);
+}
+
+.container h2 {
+    color: #d85b55;
+}
